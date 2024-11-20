@@ -1,0 +1,9 @@
+<h1>Edit Profile</h1>
+<form action="/protected/edit-profile" method="POST">
+    <input type="text" name="username" value="{{username}}" placeholder="Username" required>
+    <input type="email" name="email" value="{{email}}" placeholder="Email" required>
+    <input type="text" name="mobileNumber" value="{{mobileNumber}}" placeholder="Mobile Number" required>
+    <input type="text" name="occupation" value="{{occupation}}" placeholder="Occupation" required>
+    <button type="submit">Update</button>
+</form>
+<a href="/protected/dashboard">Cancel</a>
